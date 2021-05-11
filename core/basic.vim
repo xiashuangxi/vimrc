@@ -15,10 +15,8 @@ set termencoding=utf-8
 set nocompatible
 set backspace=indent,eol,start
 
-" 最大历史记录（默认20）
 set history=1000
 
-" 打开文件类型检查
 filetype plugin on
 filetype indent on
 
@@ -46,8 +44,8 @@ set showmatch
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 set guioptions-=m
-set guioptions-=r
-set guioptions-=L
+" set guioptions-=r
+" set guioptions-=L
 
 if has('gui_running')
 	set guifont=Consolas:h9.2
