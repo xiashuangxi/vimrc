@@ -53,3 +53,6 @@ if has('gui_running')
 else
 	silent! colo seoul256
 endif
+
+" status line 
+set laststatus=2
